@@ -15,7 +15,7 @@ class optimizar:
         print(f"Numero {n} introducido en el array.")
 
     def uso_metodo(self):
-        for i in range (3):
+        for _ in range (3):
             self.introducir_numero()
 
     def sumar_mostrar(self) -> int:
