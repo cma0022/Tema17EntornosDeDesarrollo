@@ -1,14 +1,27 @@
-array=[]
-print("introduzca un numero")
-n1 = int(input())
-print("introduzca un numero")
-n2 = int(input())
-print("introduzca un numero")
-n3 = int(input())
-array.append(n1)
-array.append(n2)
-array.append(n3)
-suma=0
-for n in array:
-    suma= suma+n
-print("La media es "+str(suma/len(array)))
+class optimizar:
+
+    array=[]
+
+    def __init__(self,array):
+        self.array = array
+
+    def input_numero(self) -> int:
+        print("Introduzca un numero:")
+        n = int(input())
+        return n
+
+    def anhadir_array(self, n):
+        self.array.append(n)
+        print(f"Numero {n} introducido en el array.")
+
+    def uso_metodo(self):
+        for i in range (3):
+            self.introducir_numero()
+
+    def sumar_mostrar(self) -> int:
+        suma = 0
+        for n in self.array:
+            suma = suma + n
+        media = suma/len(self.array)
+        print(f"La media es {suma}")
+        return media
