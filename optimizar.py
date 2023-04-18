@@ -22,7 +22,7 @@ class optimizar:
 
     # Método para sumar los números del array, hacer su media, 
     # imprimirlo por pantalla y devolverlo
-    def sumar_mostrar(self) -> int:
+    def media_mostrar(self) -> int:
         suma = 0
         for n in self.array:
             suma = suma + n
