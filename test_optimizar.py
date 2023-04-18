@@ -16,9 +16,9 @@ def test_anhadir_array():
 
 # Método tipo test. Crea un objeto de la clase optimizar con 5 valores
 #  en el array y se comprueba que la media de estos valores sea 4
-def test_sumar_mostrar():
+def test_media_mostrar():
     op = optimizar([6, 4, 2, 8, 0])
-    assert op.sumar_mostrar() == 4
+    assert op.media_mostrar() == 4
 
 
 
